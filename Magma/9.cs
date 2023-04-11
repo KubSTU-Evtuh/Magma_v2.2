@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Magma
 {
-    public partial class _9 : Form
+    public partial class TestResultsForm : Form
     {
-        public _9()
+        public TestResultsForm()
         {
             InitializeComponent();
         }

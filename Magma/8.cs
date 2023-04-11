@@ -54,7 +54,7 @@ namespace Magma
 
         private void NextStepButton_Click(object sender, EventArgs e)
         {
-            new _9().Show();
+            new TestResultsForm().Show();
             this.Close();
         }
     }

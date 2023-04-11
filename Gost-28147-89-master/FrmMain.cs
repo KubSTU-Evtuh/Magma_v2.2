@@ -32,6 +32,11 @@ namespace WinGost
                 MessageBox.Show("Поле \"Ключ\" должно содержать 32 символа.", "Предупреждение", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
+            else if (decrTextBox.Text.Trim().Length < 8)
+            {
+                MessageBox.Show("Текст шифруемого сообщения должен содержать минимум 8 символов.", "Предупреждение", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
             E32 e32;
             byteKey = CreateKey(KeyTextBox.Text);
             if (decrTextBox.Text == "")
