@@ -6,7 +6,7 @@ namespace Magma
     public partial class BitwiseAdditionFirstRoundForm : Form
     {
         private int demoCount = 0;
-        private string result = string.Empty;
+        private readonly string result = string.Empty;
 
         public BitwiseAdditionFirstRoundForm()
         {
@@ -80,6 +80,7 @@ namespace Magma
             }
             else
             {
+                InputData.GetInstance().UserAnswers.R0K0 = A0K0TextBox.Text;
                 new PermutationTableForm1().Show();
                 this.Close();
             }

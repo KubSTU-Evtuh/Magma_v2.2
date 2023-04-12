@@ -5,11 +5,11 @@ using System.Windows.Forms;
 
 namespace Magma
 {
-    public partial class TranslatingValuesForm1 : Form
+    public partial class TranslatingValuesForm : Form
     {
         private int demoCount = 0;
 
-        public TranslatingValuesForm1()
+        public TranslatingValuesForm()
         {
             InitializeComponent();
             MessageTextBox.Text = Regex.Replace(MessageTextBox.Text, "\\?{3}", InputData.GetInstance().Message);
@@ -100,8 +100,14 @@ namespace Magma
                 MessageBox.Show("Вы не заполнили все поля.", "Предупреждение", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
-            new TranslatingKeyForm().Show();
-            this.Close();
+            else
+            {
+                InputData.GetInstance().UserAnswers.L0R0 = L0R0TextBox.Text;
+                InputData.GetInstance().UserAnswers.L0 = L0TextBox.Text;
+                InputData.GetInstance().UserAnswers.R0 = R0TextBox.Text;
+                new TranslatingKeyForm().Show();
+                this.Close();
+            }
         }
 
         private void LetterHighlightTextBox_TextChanged(object sender, EventArgs e)

@@ -35,6 +35,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Logo.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
@@ -127,6 +130,7 @@
     <Compile Include="7.Designer.cs">
       <DependentUpon>7.cs</DependentUpon>
     </Compile>
+    <Compile Include="UserAnswers.cs" />
     <EmbeddedResource Include="7.resx">
       <DependentUpon>7.cs</DependentUpon>
     </EmbeddedResource>
@@ -189,6 +193,9 @@
       <Project>{a1ccd58c-008e-4f81-9980-00114320df4c}</Project>
       <Name>WinGost</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Logo.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

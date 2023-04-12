@@ -9,12 +9,12 @@ namespace WinGost
     {
         public byte[] ConvertToByte(ulong[] fl)
         {
-            byte[] temp = new byte[8];
+            _ = new byte[8];
             byte[] encrByteFile = new byte[fl.Length * 8];
 
             for (int i = 0; i < fl.Length; i++)
             {
-                temp = BitConverter.GetBytes(fl[i]);
+                byte[] temp = BitConverter.GetBytes(fl[i]);
 
                 for (int j = 0; j < temp.Length; j++)
                     encrByteFile[j + i * 8] = temp[j];

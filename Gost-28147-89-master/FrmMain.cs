@@ -32,9 +32,9 @@ namespace WinGost
                 MessageBox.Show("Поле \"Ключ\" должно содержать 32 символа.", "Предупреждение", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
-            else if (decrTextBox.Text.Trim().Length < 8)
+            else if (decrTextBox.Text.Trim().Length != 8)
             {
-                MessageBox.Show("Текст шифруемого сообщения должен содержать минимум 8 символов.", "Предупреждение", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Текст шифруемого сообщения должен содержать 8 символов.", "Предупреждение", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
             E32 e32;
@@ -63,22 +63,28 @@ namespace WinGost
         /// <param name="e"></param>
         private void FileDecryptButton_Click(object sender, EventArgs e)
         {
+            if (encrTextBox.Text.Trim().Equals(String.Empty))
+            {
+                MessageBox.Show("Поле для расшифровки пустое.", "Предупреждение", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+            if (encrTextBox.Text.Trim().Length != 8)
+            {
+                MessageBox.Show("Зашифрованное сообщение должно иметь длину 8 символов.", "Предупреждение", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
             D32 d32;
             byteKey = CreateKey(KeyTextBox.Text);
-            if (decrTextBox.Text == "")
-                MessageBox.Show("Введите данные для шифрования.");
+            byte[] btFile = encrByteFile;
+            if (byteKey.Length != 32)
+            {
+                MessageBox.Show("Введдите 256-битный ключ.");
+            }
             else
             {
-                byte[] btFile = encrByteFile;
-
-                if (byteKey.Length != 32)
-                    MessageBox.Show("Введдите 256-битный ключ.");
-                else
-                {
-                    d32 = new D32(btFile, byteKey);
-                    decrByteFile = d32.GetDecryptFile;
-                    encrTextBox.Text = Encoding.Default.GetString(decrByteFile);
-                }
+                d32 = new D32(btFile, byteKey);
+                decrByteFile = d32.GetDecryptFile;
+                encrTextBox.Text = Encoding.Default.GetString(decrByteFile);
             }
         }
 

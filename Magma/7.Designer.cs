@@ -164,9 +164,9 @@
             this.label4.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label4.Location = new System.Drawing.Point(3, 32);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(112, 32);
+            this.label4.Size = new System.Drawing.Size(124, 32);
             this.label4.TabIndex = 2;
-            this.label4.Text = "N0 - 11 =";
+            this.label4.Text = "N0 << 11 =";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // label2
@@ -176,7 +176,7 @@
             this.label2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label2.Location = new System.Drawing.Point(3, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(112, 32);
+            this.label2.Size = new System.Drawing.Size(124, 32);
             this.label2.TabIndex = 0;
             this.label2.Text = "L0 =";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -187,15 +187,15 @@
             this.label3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label3.Location = new System.Drawing.Point(3, 64);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(112, 32);
+            this.label3.Size = new System.Drawing.Size(124, 32);
             this.label3.TabIndex = 1;
-            this.label3.Text = "N0 - 11 XOR L0 =";
+            this.label3.Text = "N0 << 11 XOR L0 =";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // L0TextBox
             // 
             this.L0TextBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.L0TextBox.Location = new System.Drawing.Point(121, 3);
+            this.L0TextBox.Location = new System.Drawing.Point(133, 3);
             this.L0TextBox.Name = "L0TextBox";
             this.L0TextBox.ReadOnly = true;
             this.L0TextBox.Size = new System.Drawing.Size(234, 26);
@@ -204,7 +204,7 @@
             // N0ShiftedTextBox
             // 
             this.N0ShiftedTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.N0ShiftedTextBox.Location = new System.Drawing.Point(121, 35);
+            this.N0ShiftedTextBox.Location = new System.Drawing.Point(133, 35);
             this.N0ShiftedTextBox.Name = "N0ShiftedTextBox";
             this.N0ShiftedTextBox.ReadOnly = true;
             this.N0ShiftedTextBox.Size = new System.Drawing.Size(234, 26);
@@ -213,7 +213,7 @@
             // XORResultTextBox
             // 
             this.XORResultTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.XORResultTextBox.Location = new System.Drawing.Point(121, 67);
+            this.XORResultTextBox.Location = new System.Drawing.Point(133, 67);
             this.XORResultTextBox.Name = "XORResultTextBox";
             this.XORResultTextBox.Size = new System.Drawing.Size(234, 26);
             this.XORResultTextBox.TabIndex = 5;
@@ -227,6 +227,7 @@
             this.ClientSize = new System.Drawing.Size(1306, 666);
             this.Controls.Add(this.MainTableLayoutPanel);
             this.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MaximumSize = new System.Drawing.Size(1322, 705);
             this.MinimumSize = new System.Drawing.Size(1322, 705);

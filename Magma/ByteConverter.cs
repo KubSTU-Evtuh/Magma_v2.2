@@ -5,7 +5,7 @@ namespace Magma
 {
     internal static class ByteConverter
     {
-        private static Dictionary<char, string> asciiTable = new Dictionary<char, string>()
+        private static readonly Dictionary<char, string> asciiTable = new Dictionary<char, string>()
         {
             { 'А', "11000000" },
             { 'Б', "11000001" },
@@ -90,8 +90,7 @@ namespace Magma
         {
             if (!Regex.Match(letter.ToString(), @"[а-яА-Я]|| ").Success)
                 return "Введите символ кирилицы!";
-            string result = null;
-            asciiTable.TryGetValue(letter, out result);
+            asciiTable.TryGetValue(letter, out string result);
             return result;
         }
     }

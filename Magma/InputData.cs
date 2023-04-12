@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Drawing;
 using System.Linq;
-using System.Text.RegularExpressions;
-using System.Windows.Forms;
 
 namespace Magma
 {
@@ -81,11 +78,13 @@ namespace Magma
         {
             readonly public string Message;
             readonly public string Key;
+            public UserAnswers UserAnswers { get; set; }
 
             public Data(string message, string key)
             {
                 this.Message = message;
                 this.Key = key;
+                UserAnswers = new UserAnswers();
             }
         }
     }

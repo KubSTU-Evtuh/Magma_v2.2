@@ -33,7 +33,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.NewN0TxtBox = new System.Windows.Forms.TextBox();
+            this.NewN0TextBox = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.N0TextBox = new System.Windows.Forms.TextBox();
@@ -95,7 +95,7 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 240F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.Controls.Add(this.NewN0TxtBox, 1, 1);
+            this.tableLayoutPanel1.Controls.Add(this.NewN0TextBox, 1, 1);
             this.tableLayoutPanel1.Controls.Add(this.label3, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.label2, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.N0TextBox, 1, 0);
@@ -108,15 +108,15 @@
             this.tableLayoutPanel1.Size = new System.Drawing.Size(822, 100);
             this.tableLayoutPanel1.TabIndex = 3;
             // 
-            // NewN0TxtBox
+            // NewN0TextBox
             // 
-            this.NewN0TxtBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.NewN0TxtBox.Location = new System.Drawing.Point(74, 53);
-            this.NewN0TxtBox.Name = "NewN0TxtBox";
-            this.NewN0TxtBox.Size = new System.Drawing.Size(234, 26);
-            this.NewN0TxtBox.TabIndex = 5;
-            this.NewN0TxtBox.Text = "11111111111111111111111111111111";
-            this.NewN0TxtBox.TextChanged += new System.EventHandler(this.NewN0TxtBox_TextChanged);
+            this.NewN0TextBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.NewN0TextBox.Location = new System.Drawing.Point(86, 53);
+            this.NewN0TextBox.Name = "NewN0TextBox";
+            this.NewN0TextBox.Size = new System.Drawing.Size(234, 26);
+            this.NewN0TextBox.TabIndex = 5;
+            this.NewN0TextBox.Text = "11111111111111111111111111111111";
+            this.NewN0TextBox.TextChanged += new System.EventHandler(this.NewN0TxtBox_TextChanged);
             // 
             // label3
             // 
@@ -125,9 +125,9 @@
             this.label3.Location = new System.Drawing.Point(8, 50);
             this.label3.Margin = new System.Windows.Forms.Padding(8, 0, 0, 15);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(63, 35);
+            this.label3.Size = new System.Drawing.Size(75, 35);
             this.label3.TabIndex = 4;
-            this.label3.Text = "N0 - 11 =";
+            this.label3.Text = "N0 << 11 =";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // label2
@@ -137,7 +137,7 @@
             this.label2.Location = new System.Drawing.Point(8, 0);
             this.label2.Margin = new System.Windows.Forms.Padding(8, 0, 0, 15);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(63, 35);
+            this.label2.Size = new System.Drawing.Size(75, 35);
             this.label2.TabIndex = 2;
             this.label2.Text = "N0 =";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -145,7 +145,7 @@
             // N0TextBox
             // 
             this.N0TextBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.N0TextBox.Location = new System.Drawing.Point(74, 3);
+            this.N0TextBox.Location = new System.Drawing.Point(86, 3);
             this.N0TextBox.Name = "N0TextBox";
             this.N0TextBox.ReadOnly = true;
             this.N0TextBox.Size = new System.Drawing.Size(234, 26);
@@ -186,6 +186,7 @@
             this.ClientSize = new System.Drawing.Size(848, 473);
             this.Controls.Add(this.MainTableLayoutPanel);
             this.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MaximumSize = new System.Drawing.Size(864, 512);
             this.MinimumSize = new System.Drawing.Size(864, 512);
@@ -210,7 +211,7 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox N0TextBox;
-        private System.Windows.Forms.TextBox NewN0TxtBox;
+        private System.Windows.Forms.TextBox NewN0TextBox;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
         private System.Windows.Forms.Button NextStepButton;

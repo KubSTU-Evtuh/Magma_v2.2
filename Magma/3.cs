@@ -7,7 +7,7 @@ namespace Magma
 {
     public partial class TranslatingKeyForm : Form
     {
-        private string key;
+        private readonly string key;
         private string k0 = string.Empty;
         private string k1 = string.Empty;
         private string k2 = string.Empty;
@@ -269,8 +269,30 @@ namespace Magma
 
         private void NextStepButton_Click(object sender, EventArgs e)
         {
-            new BitwiseAdditionFirstRoundForm().Show();
-            this.Close();
+            if (K0TextBox.Text.Trim().Equals(string.Empty) ||
+                K1TextBox.Text.Trim().Equals(string.Empty) ||
+                K2TextBox.Text.Trim().Equals(string.Empty) ||
+                K3TextBox.Text.Trim().Equals(string.Empty) ||
+                K4TextBox.Text.Trim().Equals(string.Empty) ||
+                K5TextBox.Text.Trim().Equals(string.Empty) ||
+                K6TextBox.Text.Trim().Equals(string.Empty) ||
+                K7TextBox.Text.Trim().Equals(string.Empty))
+            {
+                MessageBox.Show("Не заполнены все поля K[i].", "Предупреждение", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            else
+            {
+                InputData.GetInstance().UserAnswers.K0 = K0TextBox.Text;
+                InputData.GetInstance().UserAnswers.K1 = K1TextBox.Text;
+                InputData.GetInstance().UserAnswers.K2 = K2TextBox.Text;
+                InputData.GetInstance().UserAnswers.K3 = K3TextBox.Text;
+                InputData.GetInstance().UserAnswers.K4 = K4TextBox.Text;
+                InputData.GetInstance().UserAnswers.K5 = K5TextBox.Text;
+                InputData.GetInstance().UserAnswers.K6 = K6TextBox.Text;
+                InputData.GetInstance().UserAnswers.K7 = K7TextBox.Text;
+                new BitwiseAdditionFirstRoundForm().Show();
+                this.Close();
+            }
         }
 
         private void LetterHighlightTextBox_TextChanged(object sender, EventArgs e)

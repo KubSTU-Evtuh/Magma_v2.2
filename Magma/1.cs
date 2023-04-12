@@ -41,7 +41,7 @@ namespace Magma
             else
             {
                 InputData.SetInstance(new InputData.Data(MessageTextBox.Text, KeyTextBox.Text));
-                new TranslatingValuesForm1().Show();
+                new TranslatingValuesForm().Show();
                 this.Close();
             }
         }

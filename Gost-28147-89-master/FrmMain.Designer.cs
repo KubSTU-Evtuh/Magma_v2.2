@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMain));
             this.label1 = new System.Windows.Forms.Label();
             this.KeyTextBox = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -53,7 +54,7 @@
             this.KeyTextBox.Name = "KeyTextBox";
             this.KeyTextBox.Size = new System.Drawing.Size(236, 22);
             this.KeyTextBox.TabIndex = 1;
-            this.KeyTextBox.Text = "12345678123456781234567812345678";
+            this.KeyTextBox.Text = "Саня уехал к себе домой в Туапсе";
             this.KeyTextBox.TextChanged += new System.EventHandler(this.KeyTextBox_TextChanged);
             // 
             // groupBox1
@@ -84,6 +85,7 @@
             this.decrTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.decrTextBox.Size = new System.Drawing.Size(209, 162);
             this.decrTextBox.TabIndex = 0;
+            this.decrTextBox.Text = "ГОЛОЩАПО";
             // 
             // fileEncryptButton
             // 
@@ -117,10 +119,11 @@
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Arial", 9.25F);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "FrmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Шифрование алгоритмом ГОСТ 28147-89";
+            this.Text = "Шифрование алгоритмом Магма";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);

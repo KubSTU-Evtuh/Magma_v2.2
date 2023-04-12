@@ -6,7 +6,7 @@ namespace Magma
     public partial class XORForm : Form
     {
         private int demoCount = 0;
-        private string n0XORl0;
+        private readonly string n0XORl0;
 
         public XORForm()
         {
@@ -45,6 +45,7 @@ namespace Magma
             }
             else
             {
+                InputData.GetInstance().UserAnswers.N0ShiftedXORL0 = XORResultTextBox.Text;
                 new CryptedMessageForm().Show();
                 this.Close();
             }

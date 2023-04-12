@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.MainTableLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
             this.VideoLessonButton = new System.Windows.Forms.Button();
             this.TheoryButton = new System.Windows.Forms.Button();
@@ -147,6 +148,7 @@
             this.ClientSize = new System.Drawing.Size(425, 402);
             this.Controls.Add(this.MainTableLayoutPanel);
             this.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MaximumSize = new System.Drawing.Size(441, 441);
             this.MinimumSize = new System.Drawing.Size(441, 441);

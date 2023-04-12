@@ -53,7 +53,7 @@
             this.label8 = new System.Windows.Forms.Label();
             this.K4TextBox = new System.Windows.Forms.MaskedTextBox();
             this.K5TextBox = new System.Windows.Forms.MaskedTextBox();
-            this.K6 = new System.Windows.Forms.MaskedTextBox();
+            this.K6TextBox = new System.Windows.Forms.MaskedTextBox();
             this.K7TextBox = new System.Windows.Forms.MaskedTextBox();
             this.MainTableLayoutPanel.SuspendLayout();
             this.HighlightLetterTableLayoutPanel.SuspendLayout();
@@ -87,7 +87,7 @@
             this.MainTableLayoutPanel.Controls.Add(this.label8, 2, 7);
             this.MainTableLayoutPanel.Controls.Add(this.K4TextBox, 3, 4);
             this.MainTableLayoutPanel.Controls.Add(this.K5TextBox, 3, 5);
-            this.MainTableLayoutPanel.Controls.Add(this.K6, 3, 6);
+            this.MainTableLayoutPanel.Controls.Add(this.K6TextBox, 3, 6);
             this.MainTableLayoutPanel.Controls.Add(this.K7TextBox, 3, 7);
             this.MainTableLayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.MainTableLayoutPanel.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -378,15 +378,15 @@
             this.K5TextBox.TabIndex = 25;
             this.K5TextBox.Text = "11111111111111111111111111111111";
             // 
-            // K6
+            // K6TextBox
             // 
-            this.K6.Location = new System.Drawing.Point(776, 753);
-            this.K6.Margin = new System.Windows.Forms.Padding(15);
-            this.K6.Mask = "00000000 00000000 00000000 00000000";
-            this.K6.Name = "K6";
-            this.K6.Size = new System.Drawing.Size(245, 26);
-            this.K6.TabIndex = 26;
-            this.K6.Text = "11111111111111111111111111111111";
+            this.K6TextBox.Location = new System.Drawing.Point(776, 753);
+            this.K6TextBox.Margin = new System.Windows.Forms.Padding(15);
+            this.K6TextBox.Mask = "00000000 00000000 00000000 00000000";
+            this.K6TextBox.Name = "K6TextBox";
+            this.K6TextBox.Size = new System.Drawing.Size(245, 26);
+            this.K6TextBox.TabIndex = 26;
+            this.K6TextBox.Text = "11111111111111111111111111111111";
             // 
             // K7TextBox
             // 
@@ -404,6 +404,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1405, 1016);
             this.Controls.Add(this.MainTableLayoutPanel);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "TranslatingKeyForm";
             this.Text = "Преобразование ключа шифрования";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
@@ -437,7 +438,7 @@
         private System.Windows.Forms.MaskedTextBox K3TextBox;
         private System.Windows.Forms.MaskedTextBox K4TextBox;
         private System.Windows.Forms.MaskedTextBox K5TextBox;
-        private System.Windows.Forms.MaskedTextBox K6;
+        private System.Windows.Forms.MaskedTextBox K6TextBox;
         private System.Windows.Forms.MaskedTextBox K7TextBox;
         private System.Windows.Forms.TableLayoutPanel HighlightLetterTableLayoutPanel;
         private System.Windows.Forms.Label label9;

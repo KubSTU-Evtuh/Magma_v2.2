@@ -192,6 +192,25 @@ namespace Magma
             }
             else
             {
+                InputData.GetInstance().UserAnswers.B1 = OldBlockTextBox1.Text;
+                InputData.GetInstance().UserAnswers.B2 = OldBlockTextBox2.Text;
+                InputData.GetInstance().UserAnswers.B3 = OldBlockTextBox3.Text;
+                InputData.GetInstance().UserAnswers.B4 = OldBlockTextBox4.Text;
+                InputData.GetInstance().UserAnswers.B5 = OldBlockTextBox5.Text;
+                InputData.GetInstance().UserAnswers.B6 = OldBlockTextBox6.Text;
+                InputData.GetInstance().UserAnswers.B7 = OldBlockTextBox7.Text;
+                InputData.GetInstance().UserAnswers.B8 = OldBlockTextBox8.Text;
+
+                InputData.GetInstance().UserAnswers.NB1 = NewBlockTextBox1.Text;
+                InputData.GetInstance().UserAnswers.NB2 = NewBlockTextBox2.Text;
+                InputData.GetInstance().UserAnswers.NB3 = NewBlockTextBox3.Text;
+                InputData.GetInstance().UserAnswers.NB4 = NewBlockTextBox4.Text;
+                InputData.GetInstance().UserAnswers.NB5 = NewBlockTextBox5.Text;
+                InputData.GetInstance().UserAnswers.NB6 = NewBlockTextBox6.Text;
+                InputData.GetInstance().UserAnswers.NB7 = NewBlockTextBox7.Text;
+                InputData.GetInstance().UserAnswers.NB8 = NewBlockTextBox8.Text;
+
+                InputData.GetInstance().UserAnswers.N0 = N0TextBox.Text;
                 new CyclicShiftForm().Show();
                 this.Close();
             }

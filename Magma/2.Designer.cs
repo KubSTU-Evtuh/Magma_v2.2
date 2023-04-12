@@ -1,6 +1,6 @@
 ﻿namespace Magma
 {
-    partial class TranslatingValuesForm1
+    partial class TranslatingValuesForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TranslatingValuesForm1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TranslatingValuesForm));
             this.MainTableLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
             this.NextStepButton = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
@@ -276,6 +276,7 @@
             this.ClientSize = new System.Drawing.Size(1428, 952);
             this.Controls.Add(this.MainTableLayoutPanel);
             this.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "TranslatingValuesForm1";
             this.Text = "Преобразование шифруемого сообщения";

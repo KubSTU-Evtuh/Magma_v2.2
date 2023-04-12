@@ -143,7 +143,7 @@
             this.ResultLabel.Name = "ResultLabel";
             this.ResultLabel.Size = new System.Drawing.Size(276, 26);
             this.ResultLabel.TabIndex = 3;
-            this.ResultLabel.Text = "Результат побитового сложения A0K0: ";
+            this.ResultLabel.Text = "Результат побитового сложения R0K0: ";
             this.ResultLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // A0K0TextBox
@@ -230,6 +230,7 @@
             this.ClientSize = new System.Drawing.Size(1397, 746);
             this.Controls.Add(this.MainTableLayoutPanel);
             this.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "BitwiseAdditionFirstRoundForm";
             this.Text = "Двоичное сложение R0 и K0 по mod 2^32";
