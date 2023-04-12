@@ -202,7 +202,7 @@
             this.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "InsertValuesForm";
-            this.Text = "Этап ввода начальных данных";
+            this.Text = "Ввод начальных данных";
             this.MainTableLayoutPanel.ResumeLayout(false);
             this.MainTableLayoutPanel.PerformLayout();
             this.tableLayoutPanel1.ResumeLayout(false);

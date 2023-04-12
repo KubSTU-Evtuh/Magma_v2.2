@@ -118,8 +118,8 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label1.Text" xml:space="preserve">
-    <value>На данном этапе происходит операция XOR для результата прошлых шагов(N0-11) и левой половины L0 блока. Получившееся 32‐битное число записывается в правую половину блока R0, а исходное содержимое правой половины R0 переносится в левую половину блока L0. С новой правой стороной происходят все те же операции двоичного сложения R0 и Ki по mod 2^32, операция подстановки по блоку шифрования, циклический сдвиг влево на 11 бит и операция XOR новых R0 и L0.
-Так происходит 32 раза, т.е. 32 раунда шифрования, в программе вручную будут выполнены только 2 раунда шифрования, чтобы показать как работает шифр и было легче разобраться, что тут происходит, остальную часть работы программа выполнит автоматически.
+    <value>На данном этапе происходит операция XOR для результата прошлых шагов(N0-11) и левой половины L0 блока. Получившееся 32‐битное число записывается в правую половину блока R0, а исходное содержимое правой половины R0 переносится в левую половину блока L0. С новой правой стороной происходят все те же операции двоичного сложения Ri и Ki по mod 2^32, операция подстановки по блоку шифрования, циклический сдвиг влево на 11 бит и операция XOR новых Ri и Li.
+Так происходит 32 раза, т.е. 32 раунда шифрования, в программе вручную будут выполнен только 1 раунд шифрования, чтобы показать как работает шифр и было легче разобраться что тут происходит, а остальную часть работы программа выполнит автоматически.
 Для справки важно знать, что в ходе последней, тридцать второй итерации так же, как описано выше, преобразуется правая половина, после чего полученный результат пишется в левую часть исходного блока, а правая половина сохраняет свое значение.
 Пример выполнения перации XOR приведен ниже:
 </value>
@@ -128,7 +128,7 @@
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAOkAAAEFCAIAAACJpFf5AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wAAADsABataJCQAAbGxJREFUeF7tnQfYVNX19S2JWMAOKlFjTTQae0xMYjfW2GJijBqNmtglYlCMDRHs
+        vwAADr8BOAVTJAAAbGxJREFUeF7tnQfYVNX19S2JWMAOKlFjTTQae0xMYjfW2GJijBqNmtglYlCMDRHs
         vUdJNMYWS8SusaJisKGIBUUEpRgVUBFQsMC37l1n1uzZ59zyvpD84/fwe3yOa6+9z7l3Zs6cOXdmeGeu
         GVXMnDmTbVIQlcmXtq1FTlYXVeZes0DCYX1bEJtZXa4pAH1hHVuQFE4DaprAmoQ+oKY5h1lhrvD/CHv/
         SidNQG1bKyzJLDRDCacFHevnVRk2tMKZdIDVJK/KcCGxJjVJOkEVUFkwhzoUzt1K2vEAJLvAlF9UEJTR

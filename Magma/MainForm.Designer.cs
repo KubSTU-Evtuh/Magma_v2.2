@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             this.MainTableLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
+            this.VideoLessonButton = new System.Windows.Forms.Button();
+            this.TheoryButton = new System.Windows.Forms.Button();
             this.TestButton = new System.Windows.Forms.Button();
             this.CryptButton = new System.Windows.Forms.Button();
             this.AboutButton = new System.Windows.Forms.Button();
             this.ExitButton = new System.Windows.Forms.Button();
-            this.TheoryButton = new System.Windows.Forms.Button();
-            this.VideoLessonButton = new System.Windows.Forms.Button();
             this.MainTableLayoutPanel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -61,6 +61,32 @@
             this.MainTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
             this.MainTableLayoutPanel.Size = new System.Drawing.Size(325, 302);
             this.MainTableLayoutPanel.TabIndex = 0;
+            // 
+            // VideoLessonButton
+            // 
+            this.VideoLessonButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.VideoLessonButton.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.VideoLessonButton.Location = new System.Drawing.Point(10, 210);
+            this.VideoLessonButton.Margin = new System.Windows.Forms.Padding(10);
+            this.VideoLessonButton.Name = "VideoLessonButton";
+            this.VideoLessonButton.Size = new System.Drawing.Size(305, 30);
+            this.VideoLessonButton.TabIndex = 5;
+            this.VideoLessonButton.Text = "Видеоурок по шифру \"Магма\"";
+            this.VideoLessonButton.UseVisualStyleBackColor = true;
+            this.VideoLessonButton.Click += new System.EventHandler(this.VideoLessonButton_Click);
+            // 
+            // TheoryButton
+            // 
+            this.TheoryButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.TheoryButton.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.TheoryButton.Location = new System.Drawing.Point(10, 160);
+            this.TheoryButton.Margin = new System.Windows.Forms.Padding(10);
+            this.TheoryButton.Name = "TheoryButton";
+            this.TheoryButton.Size = new System.Drawing.Size(305, 30);
+            this.TheoryButton.TabIndex = 4;
+            this.TheoryButton.Text = "Теоретические основы шифра \"Магма\"";
+            this.TheoryButton.UseVisualStyleBackColor = true;
+            this.TheoryButton.Click += new System.EventHandler(this.TheoryButton_Click);
             // 
             // TestButton
             // 
@@ -114,32 +140,6 @@
             this.ExitButton.UseVisualStyleBackColor = true;
             this.ExitButton.Click += new System.EventHandler(this.ExitButton_Click);
             // 
-            // TheoryButton
-            // 
-            this.TheoryButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.TheoryButton.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.TheoryButton.Location = new System.Drawing.Point(10, 160);
-            this.TheoryButton.Margin = new System.Windows.Forms.Padding(10);
-            this.TheoryButton.Name = "TheoryButton";
-            this.TheoryButton.Size = new System.Drawing.Size(305, 30);
-            this.TheoryButton.TabIndex = 4;
-            this.TheoryButton.Text = "Теоретические основы шифра \"Магма\"";
-            this.TheoryButton.UseVisualStyleBackColor = true;
-            this.TheoryButton.Click += new System.EventHandler(this.TheoryButton_Click);
-            // 
-            // VideoLessonButton
-            // 
-            this.VideoLessonButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.VideoLessonButton.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.VideoLessonButton.Location = new System.Drawing.Point(10, 210);
-            this.VideoLessonButton.Margin = new System.Windows.Forms.Padding(10);
-            this.VideoLessonButton.Name = "VideoLessonButton";
-            this.VideoLessonButton.Size = new System.Drawing.Size(305, 30);
-            this.VideoLessonButton.TabIndex = 5;
-            this.VideoLessonButton.Text = "Видеоурок по шифру \"Магма\"";
-            this.VideoLessonButton.UseVisualStyleBackColor = true;
-            this.VideoLessonButton.Click += new System.EventHandler(this.VideoLessonButton_Click);
-            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 23F);
@@ -152,7 +152,7 @@
             this.MinimumSize = new System.Drawing.Size(441, 441);
             this.Name = "MainForm";
             this.Padding = new System.Windows.Forms.Padding(50);
-            this.Text = "Главная";
+            this.Text = "Шифр \"Магма\"";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainForm_FormClosing);
             this.MainTableLayoutPanel.ResumeLayout(false);
             this.ResumeLayout(false);

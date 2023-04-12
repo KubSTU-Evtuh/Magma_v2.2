@@ -232,7 +232,7 @@
             this.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "BitwiseAdditionFirstRoundForm";
-            this.Text = "Побитовое сложение R0 и K0";
+            this.Text = "Двоичное сложение R0 и K0 по mod 2^32";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.MainTableLayoutPanel.ResumeLayout(false);
             this.MainTableLayoutPanel.PerformLayout();

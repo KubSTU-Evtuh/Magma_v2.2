@@ -269,7 +269,7 @@
             this.LetterHighlightTextBox.TabIndex = 22;
             this.LetterHighlightTextBox.TextChanged += new System.EventHandler(this.LetterHighlightTextBox_TextChanged);
             // 
-            // TranslatingValuesForm
+            // TranslatingValuesForm1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -277,8 +277,8 @@
             this.Controls.Add(this.MainTableLayoutPanel);
             this.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Name = "TranslatingValuesForm";
-            this.Text = "Этап преобразования шифруемого сообщения";
+            this.Name = "TranslatingValuesForm1";
+            this.Text = "Преобразование шифруемого сообщения";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.MainTableLayoutPanel.ResumeLayout(false);
             this.MainTableLayoutPanel.PerformLayout();

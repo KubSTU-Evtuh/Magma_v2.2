@@ -119,15 +119,15 @@
   </resheader>
   <data name="label1.Text" xml:space="preserve">
     <value>Сам процесс шифрования происходит в 32 “раунда”, в один раунд шифруется только правая сторона R0, левая сторона L0 переставляется на место правой после того, как правая сторона будет зашифрована, следовательно зашифрованная правая сторона переходит на место левой, на следующий раунд шифруется новая правая сторона, опять происходит перестановка сторон после шифрования и так происходит до конца цикла - т.е. 32 раза.
-В данной обучающей программе шифрование будет происходить вручную 2 раза, остальную часть автоматически выполнит программа.
+В данной обучающей программе шифрование будет происходить вручную 1 раз, остальную часть автоматически выполнит программа.
 Процесс шифрования правой части происходит в 3 этапа:
-1 этап: Происходит операция двоичного сложения ключа Ri и Ki по mod 2^32, так как складывая мы можем получить двоичное число больше 32 бит, то нужно откинуть лишний бит и для этого используется этот mod 2^32 и решает данный вопрос с лишним битом , Ai это i-ая правая часть шифруемого сообщения Ri в данной итерации, а Ki это подключ используемый для этой итерации шифрования.</value>
+1 этап: Происходит операция двоичного сложения ключа Ri и Ki по mod 2^32, так как складывая мы можем получить двоичное число больше 32 бит, то нужно откинуть лишний бит и для этого используется этот mod 2^32 и решает данный вопрос с лишним битом , Ri это i-ая правая часть шифруемого сообщения, а Ki это подключ используемый для этой итерации шифрования.</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAQwAAACaCAIAAADTpuEuAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wAAADsABataJCQAACupJREFUeF7tnT1y20gQhXUu3cHXUPkQrtoLKFDsCzB0lQNljpkqVTHa0JF9A+4j
+        vwAADr8BOAVTJAAACupJREFUeF7tnT1y20gQhXUu3cHXUPkQrtoLKFDsCzB0lQNljpkqVTHa0JF9A+4j
         u9XCAiCGBKZ7fvi+YqmIAYie7sbrGfyIfDgSQhahSAhJQJEQkoAiISQBRUJIAoqEkAQUCSEJKBJCEgSL
         5HB8fT29DrrcFEU6XypiTWcqM4EieX06Pj4cH86vV21rhiKdLxWxpjPlQIhIXl8+g95c6It0vlTEms6U
         G94ieR0E/fH49NhU6It0vlTEms6UL94iOZxD/3h8OQcb43hLoS/S+VIRazpTvvhPtw6DU78bQo8TxwrO

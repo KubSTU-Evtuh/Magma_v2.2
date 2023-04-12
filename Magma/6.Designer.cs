@@ -111,7 +111,7 @@
             // NewN0TxtBox
             // 
             this.NewN0TxtBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.NewN0TxtBox.Location = new System.Drawing.Point(72, 53);
+            this.NewN0TxtBox.Location = new System.Drawing.Point(74, 53);
             this.NewN0TxtBox.Name = "NewN0TxtBox";
             this.NewN0TxtBox.Size = new System.Drawing.Size(234, 26);
             this.NewN0TxtBox.TabIndex = 5;
@@ -122,9 +122,10 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label3.Location = new System.Drawing.Point(3, 50);
+            this.label3.Location = new System.Drawing.Point(8, 50);
+            this.label3.Margin = new System.Windows.Forms.Padding(8, 0, 0, 15);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(63, 50);
+            this.label3.Size = new System.Drawing.Size(63, 35);
             this.label3.TabIndex = 4;
             this.label3.Text = "N0 - 11 =";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -133,9 +134,10 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label2.Location = new System.Drawing.Point(3, 0);
+            this.label2.Location = new System.Drawing.Point(8, 0);
+            this.label2.Margin = new System.Windows.Forms.Padding(8, 0, 0, 15);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(63, 50);
+            this.label2.Size = new System.Drawing.Size(63, 35);
             this.label2.TabIndex = 2;
             this.label2.Text = "N0 =";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -143,7 +145,7 @@
             // N0TextBox
             // 
             this.N0TextBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.N0TextBox.Location = new System.Drawing.Point(72, 3);
+            this.N0TextBox.Location = new System.Drawing.Point(74, 3);
             this.N0TextBox.Name = "N0TextBox";
             this.N0TextBox.ReadOnly = true;
             this.N0TextBox.Size = new System.Drawing.Size(234, 26);
@@ -188,7 +190,7 @@
             this.MaximumSize = new System.Drawing.Size(864, 512);
             this.MinimumSize = new System.Drawing.Size(864, 512);
             this.Name = "CyclicShiftForm";
-            this.Text = "Циклический сдвиг";
+            this.Text = "Циклический сдвиг влево";
             this.MainTableLayoutPanel.ResumeLayout(false);
             this.MainTableLayoutPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

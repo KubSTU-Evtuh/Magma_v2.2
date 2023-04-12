@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.MainTableLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
+            this.NextStepButton = new System.Windows.Forms.Button();
             this.MessageTextBox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -36,8 +38,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.CryptedMessageTextBox = new System.Windows.Forms.TextBox();
             this.KeyTextBox = new System.Windows.Forms.TextBox();
-            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
-            this.NextStepButton = new System.Windows.Forms.Button();
             this.MainTableLayoutPanel.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
             this.SuspendLayout();
@@ -69,6 +69,34 @@
             this.MainTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 100F));
             this.MainTableLayoutPanel.Size = new System.Drawing.Size(708, 346);
             this.MainTableLayoutPanel.TabIndex = 0;
+            // 
+            // tableLayoutPanel3
+            // 
+            this.tableLayoutPanel3.ColumnCount = 2;
+            this.MainTableLayoutPanel.SetColumnSpan(this.tableLayoutPanel3, 2);
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel3.Controls.Add(this.NextStepButton, 1, 0);
+            this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(13, 239);
+            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
+            this.tableLayoutPanel3.RowCount = 1;
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 100F));
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(682, 94);
+            this.tableLayoutPanel3.TabIndex = 33;
+            // 
+            // NextStepButton
+            // 
+            this.NextStepButton.AutoSize = true;
+            this.NextStepButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.NextStepButton.Location = new System.Drawing.Point(356, 15);
+            this.NextStepButton.Margin = new System.Windows.Forms.Padding(15);
+            this.NextStepButton.Name = "NextStepButton";
+            this.NextStepButton.Size = new System.Drawing.Size(311, 70);
+            this.NextStepButton.TabIndex = 29;
+            this.NextStepButton.Text = "Следующий шаг >>";
+            this.NextStepButton.UseVisualStyleBackColor = true;
+            this.NextStepButton.Click += new System.EventHandler(this.NextStepButton_Click);
             // 
             // MessageTextBox
             // 
@@ -152,34 +180,6 @@
             this.KeyTextBox.Size = new System.Drawing.Size(317, 26);
             this.KeyTextBox.TabIndex = 5;
             // 
-            // tableLayoutPanel3
-            // 
-            this.tableLayoutPanel3.ColumnCount = 2;
-            this.MainTableLayoutPanel.SetColumnSpan(this.tableLayoutPanel3, 2);
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel3.Controls.Add(this.NextStepButton, 1, 0);
-            this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(13, 239);
-            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
-            this.tableLayoutPanel3.RowCount = 1;
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 100F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(682, 94);
-            this.tableLayoutPanel3.TabIndex = 33;
-            // 
-            // NextStepButton
-            // 
-            this.NextStepButton.AutoSize = true;
-            this.NextStepButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.NextStepButton.Location = new System.Drawing.Point(356, 15);
-            this.NextStepButton.Margin = new System.Windows.Forms.Padding(15);
-            this.NextStepButton.Name = "NextStepButton";
-            this.NextStepButton.Size = new System.Drawing.Size(311, 70);
-            this.NextStepButton.TabIndex = 29;
-            this.NextStepButton.Text = "Следующий шаг >>";
-            this.NextStepButton.UseVisualStyleBackColor = true;
-            this.NextStepButton.Click += new System.EventHandler(this.NextStepButton_Click);
-            // 
             // CryptedMessageForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -189,7 +189,7 @@
             this.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "CryptedMessageForm";
-            this.Text = "CryptedMessageForm";
+            this.Text = "Результат шифрования";
             this.MainTableLayoutPanel.ResumeLayout(false);
             this.MainTableLayoutPanel.PerformLayout();
             this.tableLayoutPanel3.ResumeLayout(false);

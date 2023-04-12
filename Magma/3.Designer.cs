@@ -405,7 +405,7 @@
             this.ClientSize = new System.Drawing.Size(1405, 1016);
             this.Controls.Add(this.MainTableLayoutPanel);
             this.Name = "TranslatingKeyForm";
-            this.Text = "Этап преобразования ключа шифрования";
+            this.Text = "Преобразование ключа шифрования";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.MainTableLayoutPanel.ResumeLayout(false);
             this.MainTableLayoutPanel.PerformLayout();
