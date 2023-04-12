@@ -117,7 +117,7 @@
             this.A0Label.Name = "A0Label";
             this.A0Label.Size = new System.Drawing.Size(276, 26);
             this.A0Label.TabIndex = 1;
-            this.A0Label.Text = "A0: ";
+            this.A0Label.Text = "R0: ";
             this.A0Label.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // K0Label
