@@ -196,7 +196,7 @@
             this.L0TextBox.Name = "L0TextBox";
             this.L0TextBox.Size = new System.Drawing.Size(246, 26);
             this.L0TextBox.TabIndex = 15;
-            this.L0TextBox.Text = "11111111111111111111111111111111";
+            this.L0TextBox.Text = "11000011110011101100101111001110";
             // 
             // R0TextBox
             // 
@@ -206,7 +206,7 @@
             this.R0TextBox.Name = "R0TextBox";
             this.R0TextBox.Size = new System.Drawing.Size(246, 26);
             this.R0TextBox.TabIndex = 16;
-            this.R0TextBox.Text = "11111111111111111111111111111111";
+            this.R0TextBox.Text = "11011001110000001100111111001110";
             // 
             // L0R0TextBox
             // 
@@ -216,7 +216,7 @@
             this.L0R0TextBox.Name = "L0R0TextBox";
             this.L0R0TextBox.Size = new System.Drawing.Size(485, 26);
             this.L0R0TextBox.TabIndex = 17;
-            this.L0R0TextBox.Text = "1111111111111111111111111111111111111111111111111111111111111111";
+            this.L0R0TextBox.Text = "1100001111001110110010111100111011011001110000001100111111001110";
             // 
             // HighlightLetterTableLayoutPanel
             // 
@@ -269,7 +269,7 @@
             this.LetterHighlightTextBox.TabIndex = 22;
             this.LetterHighlightTextBox.TextChanged += new System.EventHandler(this.LetterHighlightTextBox_TextChanged);
             // 
-            // TranslatingValuesForm1
+            // TranslatingValuesForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -278,7 +278,7 @@
             this.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Name = "TranslatingValuesForm1";
+            this.Name = "TranslatingValuesForm";
             this.Text = "Преобразование шифруемого сообщения";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.MainTableLayoutPanel.ResumeLayout(false);

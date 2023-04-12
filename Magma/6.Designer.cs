@@ -115,7 +115,7 @@
             this.NewN0TextBox.Name = "NewN0TextBox";
             this.NewN0TextBox.Size = new System.Drawing.Size(234, 26);
             this.NewN0TextBox.TabIndex = 5;
-            this.NewN0TextBox.Text = "11111111111111111111111111111111";
+            this.NewN0TextBox.Text = "01101111011000110101100010001110";
             this.NewN0TextBox.TextChanged += new System.EventHandler(this.NewN0TxtBox_TextChanged);
             // 
             // label3
@@ -150,7 +150,6 @@
             this.N0TextBox.ReadOnly = true;
             this.N0TextBox.Size = new System.Drawing.Size(234, 26);
             this.N0TextBox.TabIndex = 3;
-            this.N0TextBox.Text = "12345678123456781234567812345678";
             // 
             // tableLayoutPanel2
             // 
