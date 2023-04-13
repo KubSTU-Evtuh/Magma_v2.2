@@ -102,9 +102,9 @@ namespace Magma
             }
             else
             {
-                InputData.GetInstance().UserAnswers.L0R0 = L0R0TextBox.Text;
-                InputData.GetInstance().UserAnswers.L0 = L0TextBox.Text;
-                InputData.GetInstance().UserAnswers.R0 = R0TextBox.Text;
+                InputData.GetInstance().UserAnswers.L0R0 = Regex.Replace(L0R0TextBox.Text, " ", "");
+                InputData.GetInstance().UserAnswers.L0 = Regex.Replace(L0TextBox.Text, " ", "");
+                InputData.GetInstance().UserAnswers.R0 = Regex.Replace(R0TextBox.Text, " ", "");
                 new TranslatingKeyForm().Show();
                 this.Close();
             }

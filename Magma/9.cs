@@ -45,8 +45,8 @@ namespace Magma
             FillPercentInTextBox(L0R0ErrorPercentLabel, L0R0Error / realL0R0.Length);
 
             double L0Error = 0;
-            string realL0 = ByteConverter.GetByteCode(InputData.GetInstance().Message);
-            string userL0 = InputData.GetInstance().UserAnswers.L0R0;
+            string realL0 = ByteConverter.GetByteCode(InputData.GetInstance().Message.Substring(0, 4));
+            string userL0 = InputData.GetInstance().UserAnswers.L0;
             for (int i = 0; i < realL0.Length; i++)
             {
                 if (realL0[i] != userL0[i])
@@ -57,8 +57,8 @@ namespace Magma
             FillPercentInTextBox(L0ErrorPercentLabel, L0Error / realL0.Length);
 
             double R0Error = 0;
-            string realR0 = ByteConverter.GetByteCode(InputData.GetInstance().Message);
-            string userR0 = InputData.GetInstance().UserAnswers.L0R0;
+            string realR0 = ByteConverter.GetByteCode(InputData.GetInstance().Message.Substring(4, 4));
+            string userR0 = InputData.GetInstance().UserAnswers.R0;
             for (int i = 0; i < realR0.Length; i++)
             {
                 if (realR0[i] != userR0[i])

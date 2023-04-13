@@ -30,7 +30,7 @@ namespace Magma
             string n0 = string.Empty;
             for (int i = 0, blockNumber = 0; i < a0k0.Length; i += 4, blockNumber++)
             {
-                n0 += FormatBinaryString(Convert.ToString(new PermutationTable().Permuate(Convert.ToInt32(a0k0.Substring(i, 4), 2), 7 - blockNumber), 2));
+                n0 += FormatBinaryString(Convert.ToString(new PermutationTable().Permuate(Convert.ToInt32(a0k0.Substring(i, 4), 2), blockNumber), 2));
             }
             return n0;
         }
@@ -54,16 +54,12 @@ namespace Magma
 
         public static string GetN0Shifted()
         {
-            char[] binaryCode = GetN0().ToCharArray();
-            char[] shiftElements = binaryCode.Take(11).Reverse().ToArray();
-            for (int i = 0; i < binaryCode.Length - 1; i++)
-                binaryCode[i] = binaryCode[i + 1];
-            binaryCode = binaryCode.Reverse().ToArray();
-            for (int i = 0; i < shiftElements.Length; i++)
-                binaryCode[i] = shiftElements[i];
-            binaryCode = binaryCode.Reverse().ToArray();
-            int index = 0;
-            string result = Convert.ToString(binaryCode.Reverse().Select(x => (int)(int.Parse(x.ToString()) * Math.Pow(2, index++))).Sum(), 2).PadLeft(32, '0');
+            string result = GetN0();
+            for(int i = 0; i < 11; i++)
+            {
+                char letter = result[0];
+                result = result.Remove(0, 1) + letter;
+            }
             return result;
         }
 

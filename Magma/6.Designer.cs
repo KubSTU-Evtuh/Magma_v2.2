@@ -115,7 +115,7 @@
             this.NewN0TextBox.Name = "NewN0TextBox";
             this.NewN0TextBox.Size = new System.Drawing.Size(234, 26);
             this.NewN0TextBox.TabIndex = 5;
-            this.NewN0TextBox.Text = "01101111011000110101100010001110";
+            this.NewN0TextBox.Text = "01100110000000000111100110111100";
             this.NewN0TextBox.TextChanged += new System.EventHandler(this.NewN0TxtBox_TextChanged);
             // 
             // label3
@@ -145,6 +145,7 @@
             // N0TextBox
             // 
             this.N0TextBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.N0TextBox.HideSelection = false;
             this.N0TextBox.Location = new System.Drawing.Point(86, 3);
             this.N0TextBox.Name = "N0TextBox";
             this.N0TextBox.ReadOnly = true;

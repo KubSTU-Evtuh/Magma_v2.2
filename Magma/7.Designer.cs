@@ -217,7 +217,7 @@
             this.XORResultTextBox.Name = "XORResultTextBox";
             this.XORResultTextBox.Size = new System.Drawing.Size(234, 26);
             this.XORResultTextBox.TabIndex = 5;
-            this.XORResultTextBox.Text = "11100000010101010001001101000000";
+            this.XORResultTextBox.Text = "10100101110011101011001001110010";
             this.XORResultTextBox.TextChanged += new System.EventHandler(this.XORResultTextBox_TextChanged);
             // 
             // XORForm
