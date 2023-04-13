@@ -70,14 +70,14 @@
             this.MainTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.MainTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.MainTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.MainTableLayoutPanel.Size = new System.Drawing.Size(849, 406);
+            this.MainTableLayoutPanel.Size = new System.Drawing.Size(854, 446);
             this.MainTableLayoutPanel.TabIndex = 0;
             // 
             // KeyLabel
             // 
             this.KeyLabel.AutoSize = true;
             this.KeyLabel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.KeyLabel.Location = new System.Drawing.Point(564, 265);
+            this.KeyLabel.Location = new System.Drawing.Point(569, 305);
             this.KeyLabel.Margin = new System.Windows.Forms.Padding(15);
             this.KeyLabel.Name = "KeyLabel";
             this.KeyLabel.Size = new System.Drawing.Size(270, 20);
@@ -92,20 +92,19 @@
             this.label1.Location = new System.Drawing.Point(11, 11);
             this.label1.Margin = new System.Windows.Forms.Padding(11);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(827, 40);
+            this.label1.Size = new System.Drawing.Size(832, 60);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Для прохождения теста нужно ввести исходные данные. \r\nДля получения 64 бит шифруе" +
-    "мого текста используйте 8 первых букв из своих данных: Фамилии Имени Отчества";
+            this.label1.Text = resources.GetString("label1.Text");
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.MainTableLayoutPanel.SetColumnSpan(this.label2, 2);
             this.label2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label2.Location = new System.Drawing.Point(11, 73);
+            this.label2.Location = new System.Drawing.Point(11, 93);
             this.label2.Margin = new System.Windows.Forms.Padding(11);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(827, 20);
+            this.label2.Size = new System.Drawing.Size(832, 20);
             this.label2.TabIndex = 1;
             this.label2.Text = "Шифруемое сообщение:";
             // 
@@ -114,21 +113,22 @@
             this.label3.AutoSize = true;
             this.MainTableLayoutPanel.SetColumnSpan(this.label3, 2);
             this.label3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label3.Location = new System.Drawing.Point(11, 177);
+            this.label3.Location = new System.Drawing.Point(11, 197);
             this.label3.Margin = new System.Windows.Forms.Padding(11);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(827, 20);
+            this.label3.Size = new System.Drawing.Size(832, 40);
             this.label3.TabIndex = 4;
             this.label3.Text = "Для получения ключа (256 бит) используют текст, состоящий из 32 букв, ключ придум" +
-    "ать самостоятельно.";
+    "ать самостоятельно.\r\nОбязательное требование: использовать только кириллицу и пр" +
+    "обел!";
             // 
             // KeyTextBox
             // 
             this.KeyTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.KeyTextBox.Location = new System.Drawing.Point(11, 261);
+            this.KeyTextBox.Location = new System.Drawing.Point(11, 301);
             this.KeyTextBox.Margin = new System.Windows.Forms.Padding(11);
             this.KeyTextBox.Name = "KeyTextBox";
-            this.KeyTextBox.Size = new System.Drawing.Size(527, 26);
+            this.KeyTextBox.Size = new System.Drawing.Size(532, 26);
             this.KeyTextBox.TabIndex = 1;
             this.KeyTextBox.TextChanged += new System.EventHandler(this.KeyTextBox_TextChanged);
             // 
@@ -137,17 +137,17 @@
             this.label4.AutoSize = true;
             this.MainTableLayoutPanel.SetColumnSpan(this.label4, 2);
             this.label4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label4.Location = new System.Drawing.Point(11, 219);
+            this.label4.Location = new System.Drawing.Point(11, 259);
             this.label4.Margin = new System.Windows.Forms.Padding(11);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(827, 20);
+            this.label4.Size = new System.Drawing.Size(832, 20);
             this.label4.TabIndex = 5;
             this.label4.Text = "Ключ шифрования:";
             // 
             // NextStepButton
             // 
             this.NextStepButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.NextStepButton.Location = new System.Drawing.Point(564, 315);
+            this.NextStepButton.Location = new System.Drawing.Point(569, 355);
             this.NextStepButton.Margin = new System.Windows.Forms.Padding(15);
             this.NextStepButton.Name = "NextStepButton";
             this.NextStepButton.Size = new System.Drawing.Size(270, 76);
@@ -164,11 +164,11 @@
             this.tableLayoutPanel1.Controls.Add(this.MessageTextBox, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.MessageLabel, 1, 0);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(3, 107);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(3, 127);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(543, 56);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(548, 56);
             this.tableLayoutPanel1.TabIndex = 9;
             // 
             // MessageTextBox
@@ -177,7 +177,7 @@
             this.MessageTextBox.Location = new System.Drawing.Point(11, 11);
             this.MessageTextBox.Margin = new System.Windows.Forms.Padding(11);
             this.MessageTextBox.Name = "MessageTextBox";
-            this.MessageTextBox.Size = new System.Drawing.Size(249, 26);
+            this.MessageTextBox.Size = new System.Drawing.Size(252, 26);
             this.MessageTextBox.TabIndex = 0;
             this.MessageTextBox.TextChanged += new System.EventHandler(this.MessageTextBox_TextChanged);
             // 
@@ -185,10 +185,10 @@
             // 
             this.MessageLabel.AutoSize = true;
             this.MessageLabel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.MessageLabel.Location = new System.Drawing.Point(286, 15);
+            this.MessageLabel.Location = new System.Drawing.Point(289, 15);
             this.MessageLabel.Margin = new System.Windows.Forms.Padding(15);
             this.MessageLabel.Name = "MessageLabel";
-            this.MessageLabel.Size = new System.Drawing.Size(242, 26);
+            this.MessageLabel.Size = new System.Drawing.Size(244, 26);
             this.MessageLabel.TabIndex = 7;
             this.MessageLabel.Text = "Количество символов в строке: 8.";
             // 
@@ -197,7 +197,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(849, 406);
+            this.ClientSize = new System.Drawing.Size(854, 446);
             this.Controls.Add(this.MainTableLayoutPanel);
             this.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
