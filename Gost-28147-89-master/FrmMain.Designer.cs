@@ -54,7 +54,6 @@
             this.KeyTextBox.Name = "KeyTextBox";
             this.KeyTextBox.Size = new System.Drawing.Size(236, 22);
             this.KeyTextBox.TabIndex = 1;
-            this.KeyTextBox.Text = "Саня уехал к себе домой в Туапсе";
             this.KeyTextBox.TextChanged += new System.EventHandler(this.KeyTextBox_TextChanged);
             // 
             // groupBox1
@@ -85,7 +84,6 @@
             this.decrTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.decrTextBox.Size = new System.Drawing.Size(209, 162);
             this.decrTextBox.TabIndex = 0;
-            this.decrTextBox.Text = "ГОЛОЩАПО";
             // 
             // fileEncryptButton
             // 

@@ -115,7 +115,6 @@
             this.NewN0TextBox.Name = "NewN0TextBox";
             this.NewN0TextBox.Size = new System.Drawing.Size(234, 26);
             this.NewN0TextBox.TabIndex = 5;
-            this.NewN0TextBox.Text = "01100110000000000111100110111100";
             this.NewN0TextBox.TextChanged += new System.EventHandler(this.NewN0TxtBox_TextChanged);
             // 
             // label3

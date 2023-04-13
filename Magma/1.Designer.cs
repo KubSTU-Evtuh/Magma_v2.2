@@ -130,7 +130,6 @@
             this.KeyTextBox.Name = "KeyTextBox";
             this.KeyTextBox.Size = new System.Drawing.Size(527, 26);
             this.KeyTextBox.TabIndex = 1;
-            this.KeyTextBox.Text = "Саня уехал к себе домой в Туапсе";
             this.KeyTextBox.TextChanged += new System.EventHandler(this.KeyTextBox_TextChanged);
             // 
             // label4
@@ -180,7 +179,6 @@
             this.MessageTextBox.Name = "MessageTextBox";
             this.MessageTextBox.Size = new System.Drawing.Size(249, 26);
             this.MessageTextBox.TabIndex = 0;
-            this.MessageTextBox.Text = "ГОЛОЩАПО";
             this.MessageTextBox.TextChanged += new System.EventHandler(this.MessageTextBox_TextChanged);
             // 
             // MessageLabel

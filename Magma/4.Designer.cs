@@ -154,7 +154,6 @@
             this.A0K0TextBox.Name = "A0K0TextBox";
             this.A0K0TextBox.Size = new System.Drawing.Size(235, 26);
             this.A0K0TextBox.TabIndex = 29;
-            this.A0K0TextBox.Text = "10101011101000011011110111001101";
             this.A0K0TextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.A0K0TextBox.TextChanged += new System.EventHandler(this.A0K0TextBox_TextChanged);
             // 

@@ -235,7 +235,6 @@
             this.OldBlockTextBox1.Name = "OldBlockTextBox1";
             this.OldBlockTextBox1.Size = new System.Drawing.Size(37, 26);
             this.OldBlockTextBox1.TabIndex = 25;
-            this.OldBlockTextBox1.Text = "1101";
             this.OldBlockTextBox1.TextChanged += new System.EventHandler(this.BlockTextBox_TextChanged);
             // 
             // NewBlockTextBox1
@@ -245,7 +244,6 @@
             this.NewBlockTextBox1.Name = "NewBlockTextBox1";
             this.NewBlockTextBox1.Size = new System.Drawing.Size(37, 26);
             this.NewBlockTextBox1.TabIndex = 24;
-            this.NewBlockTextBox1.Text = "1111";
             this.NewBlockTextBox1.TextChanged += new System.EventHandler(this.BlockTextBox_TextChanged);
             // 
             // label3
@@ -266,7 +264,6 @@
             this.NewBlockTextBox3.Name = "NewBlockTextBox3";
             this.NewBlockTextBox3.Size = new System.Drawing.Size(39, 26);
             this.NewBlockTextBox3.TabIndex = 22;
-            this.NewBlockTextBox3.Text = "0000";
             this.NewBlockTextBox3.TextChanged += new System.EventHandler(this.BlockTextBox_TextChanged);
             // 
             // OldBlockTextBox3
@@ -276,7 +273,6 @@
             this.OldBlockTextBox3.Name = "OldBlockTextBox3";
             this.OldBlockTextBox3.Size = new System.Drawing.Size(37, 26);
             this.OldBlockTextBox3.TabIndex = 21;
-            this.OldBlockTextBox3.Text = "1101";
             this.OldBlockTextBox3.TextChanged += new System.EventHandler(this.BlockTextBox_TextChanged);
             // 
             // NewBlockTextBox5
@@ -286,7 +282,6 @@
             this.NewBlockTextBox5.Name = "NewBlockTextBox5";
             this.NewBlockTextBox5.Size = new System.Drawing.Size(39, 26);
             this.NewBlockTextBox5.TabIndex = 20;
-            this.NewBlockTextBox5.Text = "1100";
             this.NewBlockTextBox5.TextChanged += new System.EventHandler(this.BlockTextBox_TextChanged);
             // 
             // OldBlockTextBox5
@@ -296,7 +291,6 @@
             this.OldBlockTextBox5.Name = "OldBlockTextBox5";
             this.OldBlockTextBox5.Size = new System.Drawing.Size(37, 26);
             this.OldBlockTextBox5.TabIndex = 19;
-            this.OldBlockTextBox5.Text = "0001";
             this.OldBlockTextBox5.TextChanged += new System.EventHandler(this.BlockTextBox_TextChanged);
             // 
             // NewBlockTextBox7
@@ -306,7 +300,6 @@
             this.NewBlockTextBox7.Name = "NewBlockTextBox7";
             this.NewBlockTextBox7.Size = new System.Drawing.Size(39, 26);
             this.NewBlockTextBox7.TabIndex = 18;
-            this.NewBlockTextBox7.Text = "0111";
             this.NewBlockTextBox7.TextChanged += new System.EventHandler(this.BlockTextBox_TextChanged);
             // 
             // OldBlockTextBox7
@@ -316,7 +309,6 @@
             this.OldBlockTextBox7.Name = "OldBlockTextBox7";
             this.OldBlockTextBox7.Size = new System.Drawing.Size(37, 26);
             this.OldBlockTextBox7.TabIndex = 17;
-            this.OldBlockTextBox7.Text = "1011";
             this.OldBlockTextBox7.TextChanged += new System.EventHandler(this.BlockTextBox_TextChanged);
             // 
             // label1
@@ -425,7 +417,6 @@
             this.OldBlockTextBox8.Name = "OldBlockTextBox8";
             this.OldBlockTextBox8.Size = new System.Drawing.Size(37, 26);
             this.OldBlockTextBox8.TabIndex = 8;
-            this.OldBlockTextBox8.Text = "1010";
             this.OldBlockTextBox8.TextChanged += new System.EventHandler(this.BlockTextBox_TextChanged);
             // 
             // NewBlockTextBox8
@@ -435,7 +426,6 @@
             this.NewBlockTextBox8.Name = "NewBlockTextBox8";
             this.NewBlockTextBox8.Size = new System.Drawing.Size(39, 26);
             this.NewBlockTextBox8.TabIndex = 9;
-            this.NewBlockTextBox8.Text = "0011";
             this.NewBlockTextBox8.TextChanged += new System.EventHandler(this.BlockTextBox_TextChanged);
             // 
             // OldBlockTextBox6
@@ -445,7 +435,6 @@
             this.OldBlockTextBox6.Name = "OldBlockTextBox6";
             this.OldBlockTextBox6.Size = new System.Drawing.Size(37, 26);
             this.OldBlockTextBox6.TabIndex = 10;
-            this.OldBlockTextBox6.Text = "1010";
             this.OldBlockTextBox6.TextChanged += new System.EventHandler(this.BlockTextBox_TextChanged);
             // 
             // NewBlockTextBox6
@@ -455,7 +444,6 @@
             this.NewBlockTextBox6.Name = "NewBlockTextBox6";
             this.NewBlockTextBox6.Size = new System.Drawing.Size(39, 26);
             this.NewBlockTextBox6.TabIndex = 11;
-            this.NewBlockTextBox6.Text = "1000";
             this.NewBlockTextBox6.TextChanged += new System.EventHandler(this.BlockTextBox_TextChanged);
             // 
             // OldBlockTextBox4
@@ -465,7 +453,6 @@
             this.OldBlockTextBox4.Name = "OldBlockTextBox4";
             this.OldBlockTextBox4.Size = new System.Drawing.Size(37, 26);
             this.OldBlockTextBox4.TabIndex = 12;
-            this.OldBlockTextBox4.Text = "1011";
             this.OldBlockTextBox4.TextChanged += new System.EventHandler(this.BlockTextBox_TextChanged);
             // 
             // NewBlockTextBox4
@@ -475,7 +462,6 @@
             this.NewBlockTextBox4.Name = "NewBlockTextBox4";
             this.NewBlockTextBox4.Size = new System.Drawing.Size(39, 26);
             this.NewBlockTextBox4.TabIndex = 13;
-            this.NewBlockTextBox4.Text = "1100";
             this.NewBlockTextBox4.TextChanged += new System.EventHandler(this.BlockTextBox_TextChanged);
             // 
             // OldBlockTextBox2
@@ -485,7 +471,6 @@
             this.OldBlockTextBox2.Name = "OldBlockTextBox2";
             this.OldBlockTextBox2.Size = new System.Drawing.Size(37, 26);
             this.OldBlockTextBox2.TabIndex = 14;
-            this.OldBlockTextBox2.Text = "1100";
             this.OldBlockTextBox2.TextChanged += new System.EventHandler(this.BlockTextBox_TextChanged);
             // 
             // NewBlockTextBox2
@@ -495,7 +480,6 @@
             this.NewBlockTextBox2.Name = "NewBlockTextBox2";
             this.NewBlockTextBox2.Size = new System.Drawing.Size(39, 26);
             this.NewBlockTextBox2.TabIndex = 15;
-            this.NewBlockTextBox2.Text = "0000";
             this.NewBlockTextBox2.TextChanged += new System.EventHandler(this.BlockTextBox_TextChanged);
             // 
             // flowLayoutPanel1
@@ -744,7 +728,6 @@
             this.N0TextBox.Name = "N0TextBox";
             this.N0TextBox.Size = new System.Drawing.Size(230, 26);
             this.N0TextBox.TabIndex = 1;
-            this.N0TextBox.Text = "00110111100011001100000000001111";
             this.N0TextBox.TextChanged += new System.EventHandler(this.N0TextBox_TextChanged);
             // 
             // PermutationTableForm1

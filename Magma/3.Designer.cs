@@ -283,7 +283,6 @@
             this.K0TextBox.Name = "K0TextBox";
             this.K0TextBox.Size = new System.Drawing.Size(245, 26);
             this.K0TextBox.TabIndex = 20;
-            this.K0TextBox.Text = "11010001111000001110110111111111";
             // 
             // K2TextBox
             // 
@@ -293,7 +292,6 @@
             this.K2TextBox.Name = "K2TextBox";
             this.K2TextBox.Size = new System.Drawing.Size(245, 26);
             this.K2TextBox.TabIndex = 22;
-            this.K2TextBox.Text = "11100000111010110010000011101010";
             // 
             // K1TextBox
             // 
@@ -303,7 +301,6 @@
             this.K1TextBox.Name = "K1TextBox";
             this.K1TextBox.Size = new System.Drawing.Size(245, 26);
             this.K1TextBox.TabIndex = 21;
-            this.K1TextBox.Text = "00100000111100111110010111110101";
             // 
             // K3TextBox
             // 
@@ -313,7 +310,6 @@
             this.K3TextBox.Name = "K3TextBox";
             this.K3TextBox.Size = new System.Drawing.Size(245, 26);
             this.K3TextBox.TabIndex = 23;
-            this.K3TextBox.Text = "00100000111100011110010111100001";
             // 
             // label3
             // 
@@ -367,7 +363,6 @@
             this.K4TextBox.Name = "K4TextBox";
             this.K4TextBox.Size = new System.Drawing.Size(245, 26);
             this.K4TextBox.TabIndex = 24;
-            this.K4TextBox.Text = "11100101001000001110010011101110";
             // 
             // K5TextBox
             // 
@@ -377,7 +372,6 @@
             this.K5TextBox.Name = "K5TextBox";
             this.K5TextBox.Size = new System.Drawing.Size(245, 26);
             this.K5TextBox.TabIndex = 25;
-            this.K5TextBox.Text = "11101100111011101110100100100000";
             // 
             // K6TextBox
             // 
@@ -387,7 +381,6 @@
             this.K6TextBox.Name = "K6TextBox";
             this.K6TextBox.Size = new System.Drawing.Size(245, 26);
             this.K6TextBox.TabIndex = 26;
-            this.K6TextBox.Text = "11100010001000001101001011110011";
             // 
             // K7TextBox
             // 
@@ -397,7 +390,6 @@
             this.K7TextBox.Name = "K7TextBox";
             this.K7TextBox.Size = new System.Drawing.Size(245, 26);
             this.K7TextBox.TabIndex = 27;
-            this.K7TextBox.Text = "11100000111011111111000111100101";
             // 
             // TranslatingKeyForm
             // 
