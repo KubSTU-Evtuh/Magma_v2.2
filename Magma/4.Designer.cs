@@ -49,6 +49,7 @@
             // 
             // MainTableLayoutPanel
             // 
+            this.MainTableLayoutPanel.AutoScroll = true;
             this.MainTableLayoutPanel.ColumnCount = 2;
             this.MainTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.MainTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));

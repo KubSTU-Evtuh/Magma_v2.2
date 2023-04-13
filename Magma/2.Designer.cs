@@ -51,6 +51,7 @@
             // 
             // MainTableLayoutPanel
             // 
+            this.MainTableLayoutPanel.AutoScroll = true;
             this.MainTableLayoutPanel.ColumnCount = 3;
             this.MainTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.MainTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
@@ -83,16 +84,16 @@
             this.MainTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.MainTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.MainTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.MainTableLayoutPanel.Size = new System.Drawing.Size(1428, 952);
+            this.MainTableLayoutPanel.Size = new System.Drawing.Size(1422, 954);
             this.MainTableLayoutPanel.TabIndex = 0;
             // 
             // NextStepButton
             // 
             this.NextStepButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.NextStepButton.Location = new System.Drawing.Point(769, 874);
+            this.NextStepButton.Location = new System.Drawing.Point(766, 876);
             this.NextStepButton.Margin = new System.Windows.Forms.Padding(15);
             this.NextStepButton.Name = "NextStepButton";
-            this.NextStepButton.Size = new System.Drawing.Size(644, 63);
+            this.NextStepButton.Size = new System.Drawing.Size(641, 63);
             this.NextStepButton.TabIndex = 11;
             this.NextStepButton.Text = "Следующий шаг >>";
             this.NextStepButton.UseVisualStyleBackColor = true;
@@ -142,7 +143,7 @@
             this.l1.Location = new System.Drawing.Point(15, 526);
             this.l1.Margin = new System.Windows.Forms.Padding(15);
             this.l1.Name = "l1";
-            this.l1.Size = new System.Drawing.Size(1398, 140);
+            this.l1.Size = new System.Drawing.Size(1392, 140);
             this.l1.TabIndex = 1;
             this.l1.Text = resources.GetString("l1.Text");
             // 
@@ -150,10 +151,10 @@
             // 
             this.MainTableLayoutPanel.SetColumnSpan(this.DemonstrationButton, 2);
             this.DemonstrationButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.DemonstrationButton.Location = new System.Drawing.Point(15, 874);
+            this.DemonstrationButton.Location = new System.Drawing.Point(15, 876);
             this.DemonstrationButton.Margin = new System.Windows.Forms.Padding(15);
             this.DemonstrationButton.Name = "DemonstrationButton";
-            this.DemonstrationButton.Size = new System.Drawing.Size(724, 63);
+            this.DemonstrationButton.Size = new System.Drawing.Size(721, 63);
             this.DemonstrationButton.TabIndex = 12;
             this.DemonstrationButton.Text = ">> Демонстрация <<";
             this.DemonstrationButton.UseVisualStyleBackColor = true;
@@ -170,7 +171,7 @@
             this.MessageTextBox.Margin = new System.Windows.Forms.Padding(15, 5, 15, 0);
             this.MessageTextBox.Name = "MessageTextBox";
             this.MessageTextBox.ReadOnly = true;
-            this.MessageTextBox.Size = new System.Drawing.Size(1398, 19);
+            this.MessageTextBox.Size = new System.Drawing.Size(1392, 19);
             this.MessageTextBox.TabIndex = 13;
             this.MessageTextBox.Text = "Введенное шифруемое сообщение: ???";
             // 
@@ -184,7 +185,7 @@
             this.richTextBox1.Margin = new System.Windows.Forms.Padding(15);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.ReadOnly = true;
-            this.richTextBox1.Size = new System.Drawing.Size(1398, 405);
+            this.richTextBox1.Size = new System.Drawing.Size(1392, 405);
             this.richTextBox1.TabIndex = 14;
             this.richTextBox1.Text = resources.GetString("richTextBox1.Text");
             // 
@@ -234,7 +235,7 @@
             this.HighlightLetterTableLayoutPanel.Name = "HighlightLetterTableLayoutPanel";
             this.HighlightLetterTableLayoutPanel.RowCount = 1;
             this.HighlightLetterTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.HighlightLetterTableLayoutPanel.Size = new System.Drawing.Size(1422, 46);
+            this.HighlightLetterTableLayoutPanel.Size = new System.Drawing.Size(1416, 46);
             this.HighlightLetterTableLayoutPanel.TabIndex = 21;
             // 
             // label1
@@ -256,7 +257,7 @@
             this.ByteCodeLabel.Location = new System.Drawing.Point(345, 10);
             this.ByteCodeLabel.Margin = new System.Windows.Forms.Padding(10);
             this.ByteCodeLabel.Name = "ByteCodeLabel";
-            this.ByteCodeLabel.Size = new System.Drawing.Size(1067, 26);
+            this.ByteCodeLabel.Size = new System.Drawing.Size(1061, 26);
             this.ByteCodeLabel.TabIndex = 21;
             // 
             // LetterHighlightTextBox
@@ -273,7 +274,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1428, 952);
+            this.ClientSize = new System.Drawing.Size(1422, 954);
             this.Controls.Add(this.MainTableLayoutPanel);
             this.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
