@@ -35,6 +35,10 @@ namespace Magma
                 SelectTextInTextBox(A0TextBox);
                 SelectTextInTextBox(K0TextBox);
             }
+            else
+            {
+                MessageBox.Show("Дозаполнение двоичного сложения R0K0 выполняется самостоятельно.", "Предупреждение", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
 
         private string ShowA0K0()

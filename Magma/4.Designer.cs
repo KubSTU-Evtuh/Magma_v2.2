@@ -79,7 +79,7 @@
             // 
             // K0TextBox
             // 
-            this.K0TextBox.Location = new System.Drawing.Point(321, 241);
+            this.K0TextBox.Location = new System.Drawing.Point(388, 241);
             this.K0TextBox.Margin = new System.Windows.Forms.Padding(15);
             this.K0TextBox.Name = "K0TextBox";
             this.K0TextBox.ReadOnly = true;
@@ -89,7 +89,7 @@
             // 
             // A0TextBox
             // 
-            this.A0TextBox.Location = new System.Drawing.Point(321, 185);
+            this.A0TextBox.Location = new System.Drawing.Point(388, 185);
             this.A0TextBox.Margin = new System.Windows.Forms.Padding(15);
             this.A0TextBox.Name = "A0TextBox";
             this.A0TextBox.ReadOnly = true;
@@ -116,7 +116,7 @@
             this.A0Label.Location = new System.Drawing.Point(15, 185);
             this.A0Label.Margin = new System.Windows.Forms.Padding(15);
             this.A0Label.Name = "A0Label";
-            this.A0Label.Size = new System.Drawing.Size(276, 26);
+            this.A0Label.Size = new System.Drawing.Size(343, 26);
             this.A0Label.TabIndex = 1;
             this.A0Label.Text = "R0: ";
             this.A0Label.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -129,7 +129,7 @@
             this.K0Label.Location = new System.Drawing.Point(15, 241);
             this.K0Label.Margin = new System.Windows.Forms.Padding(15);
             this.K0Label.Name = "K0Label";
-            this.K0Label.Size = new System.Drawing.Size(276, 26);
+            this.K0Label.Size = new System.Drawing.Size(343, 26);
             this.K0Label.TabIndex = 2;
             this.K0Label.Text = "K0: ";
             this.K0Label.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -142,14 +142,14 @@
             this.ResultLabel.Location = new System.Drawing.Point(15, 297);
             this.ResultLabel.Margin = new System.Windows.Forms.Padding(15);
             this.ResultLabel.Name = "ResultLabel";
-            this.ResultLabel.Size = new System.Drawing.Size(276, 26);
+            this.ResultLabel.Size = new System.Drawing.Size(343, 26);
             this.ResultLabel.TabIndex = 3;
-            this.ResultLabel.Text = "Результат побитового сложения R0K0: ";
+            this.ResultLabel.Text = "Результат двоичного сложения R0K0 по mod 2^32: ";
             this.ResultLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // A0K0TextBox
             // 
-            this.A0K0TextBox.Location = new System.Drawing.Point(321, 297);
+            this.A0K0TextBox.Location = new System.Drawing.Point(388, 297);
             this.A0K0TextBox.Margin = new System.Windows.Forms.Padding(15);
             this.A0K0TextBox.Name = "A0K0TextBox";
             this.A0K0TextBox.Size = new System.Drawing.Size(235, 26);
@@ -219,7 +219,7 @@
             this.pictureBox1.Location = new System.Drawing.Point(15, 403);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(15);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(276, 228);
+            this.pictureBox1.Size = new System.Drawing.Size(343, 228);
             this.pictureBox1.TabIndex = 32;
             this.pictureBox1.TabStop = false;
             // 
